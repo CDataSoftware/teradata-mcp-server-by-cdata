@@ -1,7 +1,7 @@
 # teradata-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Teradata
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Teradata (beta)](https://www.cdata.com/download/download.aspx?sku=OTZK-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Teradata (beta)](https://www.cdata.com/download/download.aspx?sku=OTZK-V&type=beta). 
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Teradata supported by the [CData JDBC Driver for Teradata](https://www.cdata.com/drivers/teradata/jdbc).
 
