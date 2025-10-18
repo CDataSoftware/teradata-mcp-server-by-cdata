@@ -1,9 +1,9 @@
 # teradata-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Teradata
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Teradata (beta)](https://www.cdata.com/download/download.aspx?sku=OTZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Teradata](https://www.cdata.com/drivers/teradata/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Teradata supported by the [CData JDBC Driver for Teradata](https://www.cdata.com/drivers/teradata/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Teradata supported by the [CData JDBC Driver for Teradata](https://www.cdata.com/drivers/teradata/jdbc/).
 
 CData JDBC Driver connects to Teradata by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Teradata data available through a simple
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/teradata/download/jdbc](https://www.cdata.com/drivers/teradata/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/teradata/download/jdbc](https://www.cdata.com/drivers/teradata/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Teradata\`
